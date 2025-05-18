@@ -88,6 +88,27 @@ html,body{
     display: flex;
 }
 
+
+.ice{
+
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid red;
+    width: 40;
+    animation: typing 3s steps(30) forwards,
+    blink 0.7s step-end infinite;
+}
+
+@keyframes typink{
+    from {width: 0;}
+    to {width: 50;}
+}
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
 #box1{
     height: 100%;
     
@@ -237,6 +258,25 @@ html,body{
     width: 100%;
 
 }
+
+#whatapp{
+    direction: right;
+    align-items: center;
+    position: fixed;
+    background-image: none;
+    background-color: transparent;
+    margin-left: 1225px;
+    margin-top: 60px;
+    color: red;
+}
+
+#whatapp:hover{
+    /* background-color: aqua; */
+    animation-timing-function: 5sec;
+    color: red;
+}
+
+
 
 #main{
     height: 100%;
