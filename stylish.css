@@ -153,6 +153,7 @@ html,body{
     font-weight: bold;
     /* margin-right: auto; */
     color: rgb(255, 255, 255);
+    position: absolute;
     }
     .get{
         /* margin-top: 20px; */
