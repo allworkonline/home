@@ -38,10 +38,9 @@
  }
 
  .img2{
-  
-    justify-content: end;
-
-    margin-left: 1300px;
+   align-items: end;
+    margin-left: 1200px;
+    margin-top: -14px;
  }
  
 
