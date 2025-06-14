@@ -169,14 +169,4 @@ text-transform: none;
         color: rgb(0, 0, 0);
     }
 
-    .whats{
-        size: -100rem;
-        margin-top: -300px;
-        position: fixed;
-        height: 10px;
-        margin-left: 10px;
-        radius: 100%;
-        padding: 10px;
-    }
-
-    
+ 
