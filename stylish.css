@@ -114,7 +114,7 @@ text-transform: none;
 }
 .box:hover{
    transform: scale(1.1);
-   transition: 2s;
+   transition: 1s;
 }
 
 .box-img{
@@ -189,4 +189,14 @@ button:hover{
         font-weight: bolder;
         font-size: x-large;
         color: rgb(0, 0, 0);
+    }
+
+    .home:hover{
+      color: red;
+      
+    }
+
+
+    .listname{
+      font-size: 2vw;
     }
