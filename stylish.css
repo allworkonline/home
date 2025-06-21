@@ -99,6 +99,7 @@ text-transform: none;
    flex-wrap: wrap;
    justify-content: space-evenly;
    background-color: #e9e9e9;
+   size: 2vw;
 
 }
 
@@ -111,6 +112,7 @@ text-transform: none;
    background-size: contain;
    margin-top: 1rem;
    margin-bottom: 1rem;
+   
 }
 .box:hover{
    transform: scale(1.1);
@@ -200,3 +202,42 @@ button:hover{
     .listname{
       font-size: 2vw;
     }
+
+    .help{
+      display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   background-color: #ececec;
+   size: 2vw;
+
+    }
+.score{
+   height: 150px;
+   /* border: 2px solid black; */
+   width: 28%;
+   background-color: white;
+   margin-top: 15px;
+   background-size: contain;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+}
+.response{
+   color: red;
+}
+
+.we{
+   margin-top: 10px;
+   font-size: 1vw;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: 700;
+}
+
+.score:hover{
+   transform: scale(1.1);
+   transition: 1s;
+}
+.find{
+   font-size: 2.5vw;
+   margin-top: 5px;
+   font-weight: 700;
+}
