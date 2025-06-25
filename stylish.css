@@ -266,3 +266,13 @@ button:hover{
    transition: 1s;
    color: red;
 }
+
+.box-img{
+   size: 5vw;
+}
+
+.listname{
+   color: red;
+   text-shadow: black ;
+   text-decoration: maroon;
+}
