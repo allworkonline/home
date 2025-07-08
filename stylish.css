@@ -262,11 +262,7 @@ button:hover{
    transform: scale(1.1);
    transition: 1s;
 }
-.home:hover{
-   transform: scale(1.1);
-   transition: 1s;
-   color: red;
-}
+
 
 .box-img{
    size: 5vw;
@@ -399,4 +395,14 @@ LOGIN {
    font-weight: 700;
    margin-top: 2.4px;
    margin-left: 50px;
+}
+
+.home a:hover{
+   color: rgb(0, 0, 0);
+  
+}
+
+.home a{
+   text-decoration: none;
+   color: white;
 }
